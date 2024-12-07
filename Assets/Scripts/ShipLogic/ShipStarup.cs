@@ -14,6 +14,7 @@ namespace Assets.Scripts.ShipLogic
         void Start()
         {
             lightManager.InSpace();
+            Application.targetFrameRate = 90;
         }
 
         // Update is called once per frame
